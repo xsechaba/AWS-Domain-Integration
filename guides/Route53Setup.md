@@ -35,7 +35,3 @@ This guide provides step-by-step instructions on how to create a hosted zone in 
     - **Type**: A – IPv4 address.
     - **Alias**: No.
     - Click `Save Record Set`.
-
-## Additional Resources
-- [AWS Route 53 Documentation](https://docs.aws.amazon.com/Route53/)
-- [GoDaddy DNS Management](https://godaddy.com/help/manage-dns-680/)
