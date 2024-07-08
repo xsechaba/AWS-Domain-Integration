@@ -42,8 +42,20 @@ This guide details the process of setting up an AWS CloudFront distribution to d
 - **Return to Route 53**:
   - Navigate to your domain’s hosted zone.
   - Update DNS records to point to your CloudFront distribution.
-    - For the apex domain, create an Alias record pointing to the CloudFront distribution after selecting "Yes." for Alias.
-    - Update the 'www' version of the CNAME record to point to the CloudFront distribution’s DNS name, replace the record name with 'www' and the value with the CloudFront distribution’s DNS name.
+    - **Set Up Records**:
+      - **For Apex Domain (A Record)**:
+      - Click `Create record`.
+      - Choose `Simple routing`.
+      - Record name: leave blank for apex domain.
+      - Value/Route traffic to: Choose `Alias to CloudFront distribution` and select your distribution.
+      - Click `Create records`.
+
+      - **For `www` Subdomain (CNAME Record)**:
+      - Click `Create record`.
+      - Record name: `www`.
+      - Value/Route traffic to: Enter the DNS name of your CloudFront distribution.
+      -  Choose `CNAME`.
+      - Click `Create records`.
 
 ### 5. Testing and Validation
 - Test your domain by accessing it through a browser. Ensure the site is loading correctly over HTTPS and served through CloudFront.
