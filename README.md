@@ -15,11 +15,6 @@ After following the detailed steps outlined in this repository, the website is n
 
 These configurations ensure that the website not only meets modern web security standards but also provides a flexible approach to accessing the site via both common forms of the domain URL.
 
-## Conclusion
-
-By completing the configurations and setups described in this repository, you have successfully deployed a secure and optimally functioning website on AWS. This setup leverages the robustness of AWS services such as S3, CloudFront, Route 53, and AWS Certificate Manager to deliver a high-performance, secure user experience.
-
-
 ## Technologies Used
 - AWS S3 (Simple Storage Service)
 - AWS CloudFront
