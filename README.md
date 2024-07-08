@@ -1,7 +1,7 @@
-# AWS Website Deployment Documentation
+# AWS Domain Integration On Website
 
 ## Project Overview
-This repository is a continuation of a separate project detailing how to host a static website using AWS. It focuses on the subsequent steps required to secure and optimize the website by configuring a domain, SSL/TLS certificate, and content delivery through AWS CloudFront. The domain for this project is acquired from GoDaddy and integrated into AWS services using Route 53.
+This repository is a continuation of a separate project detailing [how to host a static website](https://github.com/xsechaba/aws-website-hosting/tree/main) using AWS. It focuses on the subsequent steps required to secure and optimize the website by configuring a domain, SSL/TLS certificate, and content delivery through AWS CloudFront. The domain for this project is acquired from GoDaddy and integrated into AWS services using Route 53.
 
 ## Technologies Used
 - AWS S3 (Simple Storage Service)
