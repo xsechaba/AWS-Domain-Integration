@@ -8,7 +8,6 @@ This repository is a continuation of a separate project detailing [how to host a
 - AWS CloudFront
 - AWS Route 53
 - AWS Certificate Manager (ACM)
-- GitHub for version control
 - GoDaddy (Domain provider)
 
 ## Project Components
