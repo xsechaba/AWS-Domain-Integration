@@ -3,6 +3,23 @@
 ## Project Overview
 This repository is a continuation of a separate project detailing [how to host a static website](https://github.com/xsechaba/aws-website-hosting/tree/main) using AWS. It focuses on the subsequent steps required to secure and optimize the website by configuring a domain, SSL/TLS certificate, and content delivery through AWS CloudFront. The domain for this project is acquired from GoDaddy and integrated into AWS services using Route 53.
 
+## Successful Deployment Outcome
+
+After following the detailed steps outlined in this repository, the website is now fully functional and secure. Key outcomes include:
+
+- **Secure Access via HTTPS**: The website is configured to serve content over HTTPS, ensuring all data transmitted between the server and users is encrypted for security.
+
+- **Domain Access**: The website can be accessed through both the apex domain and `www` subdomain:
+  - **Apex Domain**: [https://sechabam.co.za](https://sechabam.co.za)
+  - **WWW Subdomain**: [https://www.sechabam.co.za](https://www.sechabam.co.za)
+
+These configurations ensure that the website not only meets modern web security standards but also provides a flexible approach to accessing the site via both common forms of the domain URL.
+
+## Conclusion
+
+By completing the configurations and setups described in this repository, you have successfully deployed a secure and optimally functioning website on AWS. This setup leverages the robustness of AWS services such as S3, CloudFront, Route 53, and AWS Certificate Manager to deliver a high-performance, secure user experience.
+
+
 ## Technologies Used
 - AWS S3 (Simple Storage Service)
 - AWS CloudFront
